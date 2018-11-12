@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <header>
-          <h1>Photo Wall</h1>
+          <h1>My Photo Wall!!!</h1>
         </header>
         <div className="collage">
             {/* We use map here because Array.prototype.map is an expression,
@@ -48,7 +48,7 @@ class App extends Component {
                 />
             )}
             <br/>
-            <button onClick={this.handleLoadMoreImages}>More Images</button>
+            <button onClick={this.handleLoadMoreImages}>Click Here For More Images</button>
         </div>
       </React.Fragment>
     );

@@ -1,4 +1,26 @@
-body {
-  font-family: sans-serif;
-  height: 100vh;
+html {
+  display: flex;
+  justify-content: center;
+}
+  
+  body {
+  max-width: 1000px;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  color: purple;
+}
+
+img {
+  margin: 5px;
+  width: 20%;
+  height: 20%;
+}
+
+header, .collage {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
